@@ -5,6 +5,7 @@ In this module
 2) 2 Maintainance Window for Updates to be dployed on instances for Test and Prod 
    --For Test systems, maintainance windows is 3rd Sunday of each month
    --For Prod Systems, Maintance windows is 4th Sunday of each month. ---( mw.tf)
+   --Maintainance windwo is 4 hours and cutoff point 1 hour before.
 3) Register Target for patchig 
    --( Targets are registered via Tag and Value) -- (registered_targets.tf )
 4) Register Tasks for to be performed. (tasks.tf)
