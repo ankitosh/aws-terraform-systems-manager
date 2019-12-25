@@ -3,7 +3,7 @@ variable "service_role_arn" {
 }
 
 variable "access_key"
-default = "${ var.access_key}"
+default = "${var.access_key}"
 }
 
 variable "secret_key" {
