@@ -1,5 +1,5 @@
 variable "service_role_arn" {
-    default = "arn:aws:iam::YOUR-ACCOUNT-ID:role/AutomationServiceRole"
+    default = "arn:aws:iam::ACCOUNT_ID:role/AutomationServiceRole"
 }
 
 variable "access_key"
