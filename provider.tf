@@ -1,8 +1,8 @@
 
 #data "aws_caller_identity" "current" {}
 provider "aws" {
-  access_key  = "${var.access_key}"
-  secret_key  = "${var.secret_key}"
+  access_key  = "AKIAVKZMETNYVBPCX3DL"#"${var.access_key}"
+  secret_key  = "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"#"${var.secret_key}"
   region     = "eu-west-1"
 
 }
