@@ -6,7 +6,7 @@ resource "aws_ssm_maintenance_window_task" "task" {
   task_arn         = "AWS-ApplyPatchBaseline"
   priority         = 1
   #service_role_arn  =  "${module.AutomationServiceRole.arn}"
-  service_role_arn   = "arn:aws:iam::366775409521:role/AutomationServiceRole"#"${var.service_role_arn}"
+  service_role_arn   = #"arn:aws:iam::366775409521:role/AutomationServiceRole"#"${var.service_role_arn}"
   max_concurrency  = "4"
   max_errors       = "1"
 
@@ -30,7 +30,7 @@ resource "aws_ssm_maintenance_window_task" "amaznlin" {
   task_arn         = "AWS-ApplyPatchBaseline"
   priority         = 1
   #service_role_arn  =  "${module.AutomationServiceRole.arn}"
-  service_role_arn   = "arn:aws:iam::366775409521:role/AutomationServiceRole"#"${var.service_role_arn}"
+  service_role_arn   = #"arn:aws:iam::366775409521:role/AutomationServiceRole"#"${var.service_role_arn}"
   max_concurrency  = "4"
   max_errors       = "1"
 
