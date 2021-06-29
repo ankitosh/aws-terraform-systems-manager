@@ -12,7 +12,7 @@ In this module
 3) Register Target for patchig 
    --( Targets are registered via Tag and Value) -- (registered_targets.tf )
 4) Register Tasks for to be performed. (tasks.tf)
-5) TFVARS regquired for Deployment.
+5) TFVARS required for Deployment.
    --This article assumes that you have configured aws cli and your user can perform administrative tasks. -- (vars.tf)
    -- Keeping backend on S3 Bucket.
 6) Create an role for AWS Systems Manager to be assumed. -- (automation_role.tf)
