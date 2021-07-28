@@ -1,4 +1,10 @@
-# aws-terraform-systems-manager Update Management.
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="logo.png" alt="Project logo"></a>
+</p>
+
+<h3 align="center">Update Management</h3>
 
 In this module  
 1) We will create Patch Baseline for Windows Server 2016 & Amazon Linux 2. ( patch_baseline.tf)
